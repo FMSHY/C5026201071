@@ -1,0 +1,149 @@
+.container {
+    margin-top: 100px;
+}
+
+img {
+    width: 95%;
+}
+
+#carouselExampleIndicators {
+    bottom: 75px;
+}
+
+.carousel-indicators {
+    position: relative;
+    top: 535px;
+    margin: 0;
+}
+
+.carousel-indicators li {
+    height: 70px;
+    width: 70px;
+    margin: 0 5px;
+    border-radius: 10%;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid transparent;
+    border-color: #bfbfbf;
+}
+
+.checked {
+    color: orange;
+  }
+
+#ulasan {
+    font-size: 14px;
+}
+
+#ulasan2 {
+    padding-right: 8px;
+    font-size: 14px;
+}
+
+.rating {
+    font-size: 14px;
+}
+
+.terjual {
+    font-size: 14px;
+}
+
+.harga {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.judul {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.divider {
+    font-size: 11px;
+    color: #bfbfbf;
+}
+
+button {
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 8px;
+    height: 52px;
+    padding: 0 28px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-weight: 400px;
+}
+
+#masukankeranjang {
+    flex: 1;
+    padding: 9px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+#beli {
+    flex: 1;
+    padding: 9px 75px;
+    margin-right: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    color: white;
+    background-color: #ec0e49;
+    border: none;
+}
+
+#chatbox {
+    background-color: white;
+}
+
+#iklanbawah {
+    width: 35%;
+}
+
+hr {
+    padding: 5 5px;
+}
+
+#favorit {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 35px;
+    border: none;
+    background-color: white;
+}
+
+#favorit:hover {
+    color: #ec0e49;
+}
+
+#share {
+    border: none;
+    background-color: white;
+    margin-left: 30px;
+}
+
+#share:hover {
+    color: #ec0e49;
+}
+
+#masukankeranjang:hover {
+    background-color: #ededed;
+}
+
+#beli:hover {
+    background-color: #b30b38;
+}
+
+#chatbox:hover {
+    background-color: #ededed;
+}
+
+#bayarsekarang {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #616161;
+}

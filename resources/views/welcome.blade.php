@@ -86,12 +86,12 @@
                 </div>
 
                 <div class="links">
-                    <a href="ariqbimoprofile.html">Tugas 1</a>
-                    <a href="">Tugas 2</a>
-                    <a href="">Tugas 3</a>
-                    <a href="">Praktikum 1</a>
-                    <a href="">Tugas 4</a>
-                    <a href="">Praktikum 2</a>
+                    <a href="ariqbimo_profile.html">Tugas 1</a>
+                    <a href="ariqbimoprofile.html">Tugas 2</a>
+                    <a href="mediaobjectbo4.html">Tugas 3</a>
+                    <a href="praktek1">Praktikum 1</a>
+                    <a href="tugass4">Tugas 4</a>
+                    <a href="praktek2">Praktikum 2</a>
                     <a href="ets">ETS</a>
                     <a href="isiannama">Tugas PHP</a>
                 </div>

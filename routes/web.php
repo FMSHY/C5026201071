@@ -19,6 +19,14 @@ Route::get('ets', function () {
     return view('formvalidationets');
 });
 
-Route::get('isiannama',"ViewController@showForm") ;
-Route::post('greetings',"ViewController@resultGreetings");
+Route::get('praktek1', function () {
+    return view('praktikum1');
+});
+
+Route::get('tugass4', function () {
+    return view('tugasbagian4');
+});
+
+Route::get('praktek2','ViewController@showPraktikum2');
+
 

@@ -1,0 +1,77 @@
+body {
+  padding-bottom: 100px;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+}
+
+*::selection {
+  color: white;  
+  background-color: crimson;
+}
+
+#usermedia {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+#usercontent {
+  width: 450px;
+}
+
+#level {
+  font-size: 16px;
+  color: aliceblue;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 10%;
+  background-color: crimson;
+}
+
+#new {
+  font-size: 16px;
+  color: aliceblue;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  width: max-content;
+  border-radius: 10%;
+  background-color: rgb(255, 45, 45);
+}
+
+#top {
+  background-color: crimson;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+hr {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#user4 {
+  width: 500px;
+  border-width: 3px;
+  border-color: crimson;
+  border-style: solid;
+}
+
+button {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 7px;
+  color: rgb(255, 255, 255);
+  background-color: crimson;
+  border-color: rgb(255, 255, 255);
+}
+
+h2 {
+  padding-bottom: 5px;
+}

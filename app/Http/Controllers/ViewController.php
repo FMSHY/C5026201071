@@ -6,17 +6,11 @@ use Illuminate\Http\Request;
 
 class ViewController extends Controller
 {
-    //
-    function showForm()
+
+    function showPraktikum2()
     {
-        //code untuk meload data yg akan dimuat di form
-        return view('showgreetings');
+        return view('praktikum2');
     }
 
-    function resultGreetings()
-    {
-        //code untuk meload data yg akan dimuat di form
-        return view('tugas');
-    }
 
 }

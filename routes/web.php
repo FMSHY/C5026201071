@@ -29,4 +29,7 @@ Route::get('tugass4', function () {
 
 Route::get('praktek2','ViewController@showPraktikum2');
 
+//route CRUD
+Route::get('/pegawai','PegawaiController@index');
+
 

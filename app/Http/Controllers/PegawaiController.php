@@ -57,4 +57,17 @@ class PegawaiController extends Controller
         // alihkan halaman ke halaman pegawai
         return redirect('/pegawai');
     }
+        // update data pegawai
+    public function update(Request $request)
+    {
+        // update data pegawai
+        DB::table('pegawai')->where('pegawai_id',$request->id)->update([
+            'pegawai_nama' => $request->nama,
+            'pegawai_jabatan' => $request->jabatan,
+            'pegawai_umur' => $request->umur,
+            'pegawai_alamat' => $request->alamat
+        ]);
+        // alihkan halaman ke halaman pegawai
+        return redirect('/pegawai');
+    }
 }

@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  }
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 220px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(255, 255, 255); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    box-shadow: 2px 2px 9px #d4d4d4;
+  }
+
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #242424;
+    display: block;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+      background-color: #303030;
+    color: #ffffff;
+  }
+
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+  .scroll-link {
+      margin-top: 15px;
+  }
+
+  h2 {
+      margin-right: 20px;
+      font-weight: 500;
+  }
+
+  b {
+      font-weight: 550;
+  }
+
+  i {
+      margin-right: 5px;
+      size: 20%;
+  }
+
+  img {
+        margin: 18px;
+  }
+
+  footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  }
+
+  .tugaspweb {
+        text-align: center;
+        font-size: 200px;
+        font-weight: 150;
+        margin-top:215px;
+  }
+
+  .main2 {
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 100;
+  }
+
+  .home {
+      margin-left: 20px;
+  }
+
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }

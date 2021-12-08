@@ -2,7 +2,12 @@
 <html>
 
 <head>
-    <title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -94,7 +99,9 @@
 
         .main2 {
             position: absolute;
-            padding-left: 300px;
+            top: 22%;
+            left: 28%;
+            transform: translate(-50%, -50%);
         }
 
         .home {
@@ -107,13 +114,6 @@
             text-align: left;
         }
 
-        input {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-        }
-
     </style>
 </head>
 
@@ -122,7 +122,7 @@
     <header class="bg-bold text-right">
         <div class="media-body" style="font-size: 20px;">
             Ariq Bimo Nurputro - 5026201071
-            <img src="F" alt="" class="ml-3 mt-3 rounded-circle" style="width:60px;">
+            <img src="images/F.png" alt="" class="ml-3 mt-3 rounded-circle" style="width:60px;">
         </div>
     </header>
 
@@ -145,24 +145,11 @@
     </div>
 
     <!-- Page content -->
-    <div class=" main2">
-                <h2>Ariq Bimo Nurputro - 5026201071</h2>
-                <h3>Data Pegawai</h3>
-
-                <a href="/pegawai"> Kembali</a>
-
-                <br />
-                <br />
-
-                <form action="/pegawai/store" method="post">
-                    {{ csrf_field() }}
-                    Nama <input type="text" name="nama" required="required"> <br />
-                    Jabatan <input type="text" name="jabatan" required="required"> <br />
-                    Umur <input type="number" name="umur" required="required"> <br />
-                    Alamat <input type="text" name="alamat" required="required"> <br />
-                    <input type="submit" value="Simpan Data">
-                </form>
+    <div class=" main">
+                <p class="tugaspweb">Tugas PWEB</p>
             </div>
+
+
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

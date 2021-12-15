@@ -11,6 +11,4 @@ class ViewController extends Controller
     {
         return view('praktikum2');
     }
-
-
 }

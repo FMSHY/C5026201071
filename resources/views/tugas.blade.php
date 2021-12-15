@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +15,18 @@
     <style>
         input::-webkit-outer-spin-button,
         input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
+            -webkit-appearance: none;
+            margin: 0;
         }
 
-        body{
-        background-image: url(https://i.pinimg.com/originals/f4/91/ac/f491acfc2b96e3f1be7f4548065ee461.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        body {
+            background-image: url(https://i.pinimg.com/originals/f4/91/ac/f491acfc2b96e3f1be7f4548065ee461.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
 
         }
-        .container{
+
+        .container {
             align-items: center;
             justify-content: center;
             width: 700px;
@@ -34,30 +36,32 @@
             margin: 50px auto;
 
         }
-        button{
-        width: 200px;
+
+        button {
+            width: 200px;
         }
 
     </style>
 </head>
+
 <body>
-<?php
-            $first = $last = $sex = $age = "";
+    <?php
+    $first = $last = $sex = $age = '';
 
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                $first = test_input($_POST["first"]);
-                $last = test_input($_POST["last"]);
-                $sex = test_input($_POST["sex"]);
-                $age = test_input($_POST["age"]);
-            }
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $first = test_input($_POST['first']);
+        $last = test_input($_POST['last']);
+        $sex = test_input($_POST['sex']);
+        $age = test_input($_POST['age']);
+    }
 
-            function test_input($data) {
-                $data = trim($data);
-                $data = stripslashes($data);
-                $data = htmlspecialchars($data);
-                return $data;
-            }
-
+    function test_input($data)
+    {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+    }
 
     ?>
 
@@ -65,28 +69,29 @@
 
 
 
-            <center><h1>WELCOME!!</h1></center>
-            <br>
+        <center>
+            <h1>WELCOME!!</h1>
+        </center>
+        <br>
 
-                       <p>Dear,
-                           <?php
-                            if ($sex == "male") {
-                            echo "Mr.";
-                            }
-                            elseif ($age < 21 && $sex == "female") {
-                            echo "Ms.";
-                            }
-                            else {
-                            echo "Mrs.";
-                            }
-                        ?>
-                        <?php
-                            echo $last ." " .$first;
-                        ?>
-                        </p>
-                        <pre>Welcome to Meldives!!</pre>
-                        <pre>We wish you a pleasant stay and have a memorable experience.</pre>
-                        <pre>Enjoy your holiday!</pre>
-                </div>
+        <p>Dear,
+            <?php
+            if ($sex == 'male') {
+                echo 'Mr.';
+            } elseif ($age < 21 && $sex == 'female') {
+                echo 'Ms.';
+            } else {
+                echo 'Mrs.';
+            }
+            ?>
+            <?php
+            echo $last . ' ' . $first;
+            ?>
+        </p>
+        <pre>Welcome to Meldives!!</pre>
+        <pre>We wish you a pleasant stay and have a memorable experience.</pre>
+        <pre>Enjoy your holiday!</pre>
+    </div>
 </body>
+
 </html>

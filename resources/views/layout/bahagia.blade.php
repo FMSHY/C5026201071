@@ -326,7 +326,7 @@
     <div class="sidebar">
         <div class="logo-details">
             <i class='fas fa-server'></i>
-            <div class="logo_name">Menu</div>
+            <a class="logo_name" href="welcomebahagia">Menu</a>
             <i class='fas fa-arrow-left' id="btn"></i>
         </div>
         <ul class="nav-list">
@@ -352,11 +352,18 @@
                 <span class="tooltip">Pendapatan</span>
             </li>
             <li>
-                <a href="#">
-                    <i class="fas fa-question fa-sm"></i>
-                    <span class="links_name">Coming soon!</span>
+                <a href="minuman">
+                    <i class="fas fa-wine-bottle fa-sm"></i>
+                    <span class="links_name">Praktikum 3</span>
                 </a>
-                <span class="tooltip">Coming soon!</span>
+                <span class="tooltip">Praktikum 3</span>
+            </li>
+            <li>
+                <a href="karyawan1">
+                    <i class="fas fa-paste fa-sm"></i>
+                    <span class="links_name">EAS</span>
+                </a>
+                <span class="tooltip">EAS</span>
             </li>
         </ul>
     </div>
@@ -381,6 +388,7 @@
             </ul>
 
         </nav>
+
 
         @yield('konten')
     </section>

@@ -39,11 +39,12 @@ class minumanController extends Controller
     $minuman = DB::table('minuman')->where('kodeminuman',$kodeminuman)->get();
     return view('minuman.edit', ['minuman'=> $minuman]);
 }
-    public function detail($kodeminuman)
+    public function detail($id)
     {
-        $minuman = DB::table('minuman')->where('kodeminuman',$kodeminuman)->get();
+        $minuman = DB::table('minuman')->where('kodeminuman',$id)->get();
         return view('minuman.detail', ['minuman' => $minuman]);
     }
+
     public function update(Request $request)
     {
     DB::table('minuman')->where('kodeminuman',$request->kodeminuman)->update([

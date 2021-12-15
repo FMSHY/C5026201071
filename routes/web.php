@@ -76,13 +76,24 @@ Route::post('/minuman/store','minumanController@store');
 Route::get('/minuman/edit/{id}','minumanController@edit');
 Route::post('/minuman/update','minumanController@update');
 
+Route::get('/minuman/view/{id}','minumanController@detail');
+
 Route::get('/minuman/hapus/{id}','minumanController@hapus');
 
+//route CRUD karyawan
+Route::get('/karyawan1','karyawan1Controller@index');
 
+Route::get('/karyawan1/add','karyawan1Controller@add');
+Route::post('/karyawan1/store','karyawan1Controller@store');
+
+Route::get('/karyawan1/hapus/{id}','karyawan1Controller@hapus');
 
 //route Bahagua
 Route::get('bahagia', function () {
     return view('layout.bahagia');
 });
 
+Route::get('welcomebahagia', function () {
+    return view('layout.welcomebahagia');
+});
 
